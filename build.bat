@@ -1,0 +1,1 @@
+emcc -s SINGLE_FILE=1 -s EXPORTED_FUNCTIONS="['_reset', '_add_given', '_add_deduction', '_erase_deductions_after', '_deduction_hint', '_set_closure', '_closure_hint']" -s EXPORTED_RUNTIME_METHODS="['ccall','cwrap']" -Wno-c++11-narrowing -Wno-writable-strings --source-map-base -O3 -I "src" "src/main.cpp" -o "generated/cpp.js"

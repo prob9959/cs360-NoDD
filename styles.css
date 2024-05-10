@@ -1,0 +1,49 @@
+body
+{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+table.derivGivens {
+    background:#ffe6e6;
+    border-right: 1px solid black;
+}
+
+.container{
+    background-color: white;
+}
+
+td{
+    padding: 5px;
+}
+
+div.derivation div.row + div.row { border-top:1px solid #e6e7e9; }
+div.derivation div.row div.col-8 + div.col-2 { border-left: 1px solid black; background-color: #f3f1f4; }
+div.derivation div.row div.col-2 + div.col-2 { border-left: 1px solid black; background-color: #ebe0e0; }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+  
+.active {
+    background-color: darkgray;
+}
